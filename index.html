@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/547b84c015.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/css/style.css">
+
+
+</head>
+<body>
+    <div class="todo">
+        <div class="header">
+            <h1>ToDo List</h1>
+            <input type="text" class="todoInput" placeholder="Type your task here...">
+            <button class="addBtn">Add</button>
+        </div>
+        <div class="todoList">
+            <h3>tasks list</h3>
+            <p class="alertInfo">No tasks at the moment.</p>
+            <ul></ul>
+        </div>
+    </div>
+    
+    <div class="popup">
+        <h3>Edit task:</h3>
+        <div class="popupBody">
+            <p class="popupInfo"></p>
+            <input type="text" class="popupInput" placeholder="Type a new description of your task...">
+            <button class="popupBtn accept">Confirm</button>
+            <button class="popupBtn cancel">Cancel</button>
+        </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
